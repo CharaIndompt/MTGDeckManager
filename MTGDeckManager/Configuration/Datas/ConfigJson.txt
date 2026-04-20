@@ -1,0 +1,4 @@
+FOLDER,/workspace/MTGDeckManager/Configuration/Datas/Json/
+CREATURES,Creatures.json
+LANDS,Lands.json
+DECKS,Decks.json

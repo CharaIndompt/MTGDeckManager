@@ -1,0 +1,115 @@
+{
+  "$type": "MTGDeckManager.Model.Cards.CardsCollection, MTGDeckManager",
+  "$values": [
+    {
+      "$type": "MTGDeckManager.Model.Cards.CreatureCard, MTGDeckManager",
+      "Power": 0,
+      "Toughness": 1,
+      "CreatureType": "Bird",
+      "Id": 1,
+      "Name": "Birds of Paradise",
+      "Description": "Flying creature that produces mana",
+      "ManaCost": "{G}",
+      "Rarity": "Rare"
+    },
+    {
+      "$type": "MTGDeckManager.Model.Cards.CreatureCard, MTGDeckManager",
+      "Power": 1,
+      "Toughness": 1,
+      "CreatureType": "Elf Druid",
+      "Id": 2,
+      "Name": "Llanowar Elves",
+      "Description": "Elf druid that produces green mana",
+      "ManaCost": "{G}",
+      "Rarity": "Common"
+    },
+    {
+      "$type": "MTGDeckManager.Model.Cards.CreatureCard, MTGDeckManager",
+      "Power": 1,
+      "Toughness": 1,
+      "CreatureType": "Elf Druid",
+      "Id": 3,
+      "Name": "Elvish Mystic",
+      "Description": "Elf druid that produces green mana",
+      "ManaCost": "{G}",
+      "Rarity": "Common"
+    },
+    {
+      "$type": "MTGDeckManager.Model.Cards.CreatureCard, MTGDeckManager",
+      "Power": 1,
+      "Toughness": 1,
+      "CreatureType": "Elf Druid",
+      "Id": 4,
+      "Name": "Fyndhorn Elves",
+      "Description": "Elf druid that produces green mana",
+      "ManaCost": "{G}",
+      "Rarity": "Common"
+    },
+    {
+      "$type": "MTGDeckManager.Model.Cards.CreatureCard, MTGDeckManager",
+      "Power": 1,
+      "Toughness": 1,
+      "CreatureType": "Elf",
+      "Id": 5,
+      "Name": "Arbor Elf",
+      "Description": "Elf that can tap for mana",
+      "ManaCost": "{G}",
+      "Rarity": "Common"
+    },
+    {
+      "$type": "MTGDeckManager.Model.Cards.CreatureCard, MTGDeckManager",
+      "Power": 1,
+      "Toughness": 1,
+      "CreatureType": "Elf Cleric",
+      "Id": 6,
+      "Name": "Priest of Titania",
+      "Description": "Elf priest that produces mana based on elves",
+      "ManaCost": "{G}",
+      "Rarity": "Rare"
+    },
+    {
+      "$type": "MTGDeckManager.Model.Cards.CreatureCard, MTGDeckManager",
+      "Power": 1,
+      "Toughness": 1,
+      "CreatureType": "Elf Druid",
+      "Id": 7,
+      "Name": "Heritage Druid",
+      "Description": "Elf druid that produces mana from other elves",
+      "ManaCost": "{G}",
+      "Rarity": "Rare"
+    },
+    {
+      "$type": "MTGDeckManager.Model.Cards.CreatureCard, MTGDeckManager",
+      "Power": 1,
+      "Toughness": 1,
+      "CreatureType": "Elf",
+      "Id": 8,
+      "Name": "Wirewood Symbiote",
+      "Description": "Elf creature with bounce ability",
+      "ManaCost": "{G}",
+      "Rarity": "Uncommon"
+    },
+    {
+      "$type": "MTGDeckManager.Model.Cards.CreatureCard, MTGDeckManager",
+      "Power": 1,
+      "Toughness": 1,
+      "CreatureType": "Elf Scout",
+      "Id": 9,
+      "Name": "Quirion Ranger",
+      "Description": "Elf scout with land bouncing ability",
+      "ManaCost": "{G}",
+      "Rarity": "Uncommon"
+    },
+    {
+      "$type": "MTGDeckManager.Model.Cards.CreatureCard, MTGDeckManager",
+      "Power": 2,
+      "Toughness": 2,
+      "CreatureType": "Elf Warrior",
+      "Id": 10,
+      "Name": "Dwynen's Elite",
+      "Description": "Elf warrior token generator",
+      "ManaCost": "{1}{G}",
+      "Rarity": "Rare"
+    }
+  ]
+}

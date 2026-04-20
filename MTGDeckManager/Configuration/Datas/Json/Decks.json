@@ -1,0 +1,65 @@
+{
+  "$type": "MTGDeckManager.Model.Decks.DecksCollection, MTGDeckManager",
+  "$values": [
+    {
+      "$type": "MTGDeckManager.Model.Decks.Deck, MTGDeckManager",
+      "Id": 1,
+      "Name": "Elf Ballista",
+      "Format": "Commander"
+    },
+    {
+      "$type": "MTGDeckManager.Model.Decks.Deck, MTGDeckManager",
+      "Id": 2,
+      "Name": "Green Stompy",
+      "Format": "Commander"
+    },
+    {
+      "$type": "MTGDeckManager.Model.Decks.Deck, MTGDeckManager",
+      "Id": 3,
+      "Name": "Land Destruction",
+      "Format": "Commander"
+    },
+    {
+      "$type": "MTGDeckManager.Model.Decks.Deck, MTGDeckManager",
+      "Id": 4,
+      "Name": "Voltron EDH",
+      "Format": "Commander"
+    },
+    {
+      "$type": "MTGDeckManager.Model.Decks.Deck, MTGDeckManager",
+      "Id": 5,
+      "Name": "Token Swarm",
+      "Format": "Commander"
+    },
+    {
+      "$type": "MTGDeckManager.Model.Decks.Deck, MTGDeckManager",
+      "Id": 6,
+      "Name": "Combo Infinite",
+      "Format": "Commander"
+    },
+    {
+      "$type": "MTGDeckManager.Model.Decks.Deck, MTGDeckManager",
+      "Id": 7,
+      "Name": "Control Green",
+      "Format": "Commander"
+    },
+    {
+      "$type": "MTGDeckManager.Model.Decks.Deck, MTGDeckManager",
+      "Id": 8,
+      "Name": "Aggro Elf",
+      "Format": "Commander"
+    },
+    {
+      "$type": "MTGDeckManager.Model.Decks.Deck, MTGDeckManager",
+      "Id": 9,
+      "Name": "Midrange Value",
+      "Format": "Commander"
+    },
+    {
+      "$type": "MTGDeckManager.Model.Decks.Deck, MTGDeckManager",
+      "Id": 10,
+      "Name": "Ramp Big Mana",
+      "Format": "Commander"
+    }
+  ]
+}
