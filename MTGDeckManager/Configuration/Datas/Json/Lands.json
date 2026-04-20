@@ -1,0 +1,105 @@
+{
+  "$type": "MTGDeckManager.Model.Cards.CardsCollection, MTGDeckManager",
+  "$values": [
+    {
+      "$type": "MTGDeckManager.Model.Cards.LandCard, MTGDeckManager",
+      "CanTapForMana": true,
+      "LandType": "Forest",
+      "Id": 1,
+      "Name": "Forest",
+      "Description": "Basic land that produces green mana",
+      "ManaCost": "",
+      "Rarity": "Common"
+    },
+    {
+      "$type": "MTGDeckManager.Model.Cards.LandCard, MTGDeckManager",
+      "CanTapForMana": true,
+      "LandType": "Island",
+      "Id": 2,
+      "Name": "Island",
+      "Description": "Basic land that produces blue mana",
+      "ManaCost": "",
+      "Rarity": "Common"
+    },
+    {
+      "$type": "MTGDeckManager.Model.Cards.LandCard, MTGDeckManager",
+      "CanTapForMana": true,
+      "LandType": "Mountain",
+      "Id": 3,
+      "Name": "Mountain",
+      "Description": "Basic land that produces red mana",
+      "ManaCost": "",
+      "Rarity": "Common"
+    },
+    {
+      "$type": "MTGDeckManager.Model.Cards.LandCard, MTGDeckManager",
+      "CanTapForMana": true,
+      "LandType": "Plains",
+      "Id": 4,
+      "Name": "Plains",
+      "Description": "Basic land that produces white mana",
+      "ManaCost": "",
+      "Rarity": "Common"
+    },
+    {
+      "$type": "MTGDeckManager.Model.Cards.LandCard, MTGDeckManager",
+      "CanTapForMana": true,
+      "LandType": "Swamp",
+      "Id": 5,
+      "Name": "Swamp",
+      "Description": "Basic land that produces black mana",
+      "ManaCost": "",
+      "Rarity": "Common"
+    },
+    {
+      "$type": "MTGDeckManager.Model.Cards.LandCard, MTGDeckManager",
+      "CanTapForMana": true,
+      "LandType": "Utility",
+      "Id": 6,
+      "Name": "Command Tower",
+      "Description": "Land that produces any color in commander",
+      "ManaCost": "",
+      "Rarity": "Uncommon"
+    },
+    {
+      "$type": "MTGDeckManager.Model.Cards.LandCard, MTGDeckManager",
+      "CanTapForMana": true,
+      "LandType": "Utility",
+      "Id": 7,
+      "Name": "Exotic Orchard",
+      "Description": "Land that produces opponent's colors",
+      "ManaCost": "",
+      "Rarity": "Rare"
+    },
+    {
+      "$type": "MTGDeckManager.Model.Cards.LandCard, MTGDeckManager",
+      "CanTapForMana": true,
+      "LandType": "Artifact",
+      "Id": 8,
+      "Name": "Arcane Signet",
+      "Description": "Artifact land that produces any color",
+      "ManaCost": "",
+      "Rarity": "Rare"
+    },
+    {
+      "$type": "MTGDeckManager.Model.Cards.LandCard, MTGDeckManager",
+      "CanTapForMana": true,
+      "LandType": "Forest Plains",
+      "Id": 9,
+      "Name": "Temple Garden",
+      "Description": "Dual land forest plains",
+      "ManaCost": "",
+      "Rarity": "Rare"
+    },
+    {
+      "$type": "MTGDeckManager.Model.Cards.LandCard, MTGDeckManager",
+      "CanTapForMana": true,
+      "LandType": "Island Forest",
+      "Id": 10,
+      "Name": "Breeding Pool",
+      "Description": "Dual land island forest",
+      "ManaCost": "",
+      "Rarity": "Rare"
+    }
+  ]
+}

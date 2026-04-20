@@ -1,0 +1,4 @@
+FOLDER,/workspace/MTGDeckManager/Configuration/Datas/Csv/
+CREATURES,Creatures.csv
+LANDS,Lands.csv
+DECKS,Decks.csv

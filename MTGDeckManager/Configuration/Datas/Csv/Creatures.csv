@@ -1,0 +1,13 @@
+Type;Id;Name;Description;ManaCost;Rarity;Power;Toughness;CreatureType
+CREATURE;1;Sol Ring;Artifact creature that produces mana;{1};Common;0;0;Artifact
+CREATURE;2;Birds of Paradise;Flying creature that produces mana;{G};Rare;0;1;Bird
+CREATURE;3;Llanowar Elves;Elf druid that produces green mana;{G};Common;1;1;Elf Druid
+CREATURE;4;Elvish Mystic;Elf druid that produces green mana;{G};Common;1;1;Elf Druid
+CREATURE;5;Fyndhorn Elves;Elf druid that produces green mana;{G};Common;1;1;Elf Druid
+CREATURE;6;Joraga Treespeaker;Elf druid with level up ability;{G};Uncommon;1;1;Elf Druid
+CREATURE;7;Arbor Elf;Elf that can tap for mana;{G};Common;1;1;Elf
+CREATURE;8;Priest of Titania;Elf priest that produces mana based on elves;{G};Rare;1;1;Elf Cleric
+CREATURE;9;Heritage Druid;Elf druid that produces mana from other elves;{G};Rare;1;1;Elf Druid
+CREATURE;10;Wirewood Symbiote;Elf creature with bounce ability;{G};Uncommon;1;1;Elf
+CREATURE;11;Quirion Ranger;Elf scout with land bouncing ability;{G};Uncommon;1;1;Elf Scout
+CREATURE;12;Dwynen's Elite;Elf warrior token generator;{1}{G};Rare;2;2;Elf Warrior
