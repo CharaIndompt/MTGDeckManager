@@ -8,44 +8,13 @@ namespace MTGDeckManager.Model.Cards
 {
     public class ArtifactCard : Card
     {
-        private bool _isEquipment;
-        private bool _isVehicle;
-        private string _artifactType;
-
-        public bool IsEquipment
-        {
-            get => _isEquipment;
-            set => _isEquipment = value;
-        }
-
-        public bool IsVehicle
-        {
-            get => _isVehicle;
-            set => _isVehicle = value;
-        }
-
-        public string ArtifactType
-        {
-            get => _artifactType;
-            set
-            {
-                if (!string.IsNullOrEmpty(value))
-                {
-                    _artifactType = value;
-                }
-            }
-        }
-
         public ArtifactCard() : base()
         {
         }
 
-        public ArtifactCard(int id, string name, string description, string manaCost, string rarity, string artifactType, bool isEquipment = false, bool isVehicle = false)
-            : base(id, name, description, manaCost, rarity)
+        public ArtifactCard(int id, string name, string description, string manaCost, string rarity, string subtype)
+            : base(id, name, description, manaCost, rarity, subtype)
         {
-            ArtifactType = artifactType;
-            IsEquipment = isEquipment;
-            IsVehicle = isVehicle;
         }
 
         /// <summary>
@@ -53,10 +22,7 @@ namespace MTGDeckManager.Model.Cards
         /// </summary>
         public override string AutoDescription()
         {
-            string typeInfo = ArtifactType;
-            if (IsEquipment) typeInfo += " (Equipment)";
-            if (IsVehicle) typeInfo += " (Vehicle)";
-            return $"{Name} ({typeInfo}) - Artéfact, Coût de mana: {ManaCost}, Rareté: {Rarity}. {Description}";
+            return $"{Name} ({Subtype}) - Artéfact, Coût de mana: {ManaCost}, Rareté: {Rarity}. {Description}";
         }
 
         /// <summary>
@@ -64,7 +30,7 @@ namespace MTGDeckManager.Model.Cards
         /// </summary>
         public override bool Check()
         {
-            return base.Check() && !string.IsNullOrEmpty(ArtifactType);
+            return base.Check() && !string.IsNullOrEmpty(Subtype);
         }
     }
 }

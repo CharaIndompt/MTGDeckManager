@@ -1,0 +1,21 @@
+Type;Id;Name;Description;ManaCost;Rarity;SpellType
+INSTANT;1;Counterspell;Counter target spell;{U}{U};Common;Counter
+INSTANT;2;Path to Exile;Exile target creature;{W};Uncommon;Removal
+INSTANT;3;Lightning Bolt;Deal 3 damage to any target;{R};Common;Direct Damage
+INSTANT;4;Giant Growth;Target creature gets +3/+3 until end of turn;{G};Common;Buff
+INSTANT;5;Dark Ritual;Add {B}{B}{B};{B};Common;Mana
+INSTANT;6;Brainstorm;Draw three cards, then put two back;{U};Common;Card Draw
+INSTANT;7;Swords to Plowshares;Exile target creature;{W};Uncommon;Removal
+INSTANT;8;Terminate;Destroy target creature;{B}{R};Uncommon;Removal
+INSTANT;9;Heroic Intervention;Your permanents gain hexproof and indestructible;{G}{G};Rare;Protection
+INSTANT;10;Arcane Denial;Counter target spell;{1}{U};Common;Counter
+SORCERY;11;Demonic Tutor;Search your library for any card;{B}{B};Rare;Tutor
+SORCERY;12;Beast Within;Destroy any permanent;{1}{G}{G};Rare;Removal
+SORCERY;13;Blasphemous Act;Deal 13 damage to all creatures;{3}{R};Rare;Board Wipe
+SORCERY;14;Damnation;Destroy all creatures;{2}{B}{B};Rare;Board Wipe
+SORCERY;15;Wrath of God;Destroy all creatures;{2}{W}{W};Rare;Board Wipe
+SORCERY;16;Kodama's Reach;Search for two basic lands;{2}{G};Common;Ramp
+SORCERY;17;Cultivate;Search for a basic land;{2}{G};Common;Ramp
+SORCERY;18;Painful Truths;Draw three cards, lose life;{2}{B};Rare;Card Draw
+SORCERY;19;Supreme Verdict;Destroy all creatures;{2}{W}{U};Rare;Board Wipe
+SORCERY;20;Vindicate;Destroy any permanent;{W}{B};Rare;Removal

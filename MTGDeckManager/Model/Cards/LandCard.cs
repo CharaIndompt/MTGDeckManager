@@ -8,36 +8,13 @@ namespace MTGDeckManager.Model.Cards
 {
     public class LandCard : Card
     {
-        private bool _canTapForMana;
-        private string _landType;
-
-        public bool CanTapForMana
-        {
-            get => _canTapForMana;
-            set => _canTapForMana = value;
-        }
-
-        public string LandType
-        {
-            get => _landType;
-            set
-            {
-                if (!string.IsNullOrEmpty(value))
-                {
-                    _landType = value;
-                }
-            }
-        }
-
         public LandCard() : base()
         {
         }
 
-        public LandCard(int id, string name, string description, string manaCost, string rarity, string landType, bool canTapForMana = true)
-            : base(id, name, description, manaCost, rarity)
+        public LandCard(int id, string name, string description, string manaCost, string rarity, string subtype)
+            : base(id, name, description, manaCost, rarity, subtype)
         {
-            LandType = landType;
-            CanTapForMana = canTapForMana;
         }
 
         /// <summary>
@@ -45,7 +22,7 @@ namespace MTGDeckManager.Model.Cards
         /// </summary>
         public override string AutoDescription()
         {
-            return $"{Name} ({LandType}) - Terrain qui peut produire du mana: {CanTapForMana}, Rareté: {Rarity}. {Description}";
+            return $"{Name} ({Subtype}) - Terrain, Rareté: {Rarity}. {Description}";
         }
 
         /// <summary>
@@ -53,7 +30,7 @@ namespace MTGDeckManager.Model.Cards
         /// </summary>
         public override bool Check()
         {
-            return base.Check() && !string.IsNullOrEmpty(LandType);
+            return base.Check() && !string.IsNullOrEmpty(Subtype);
         }
     }
 }

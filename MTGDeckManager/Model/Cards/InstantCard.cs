@@ -6,30 +6,18 @@ using System.Threading.Tasks;
 
 namespace MTGDeckManager.Model.Cards
 {
-    public class InstantCard : Card
+    /// <summary>
+    /// Represents an Instant card - can be cast at any time
+    /// </summary>
+    public class InstantCard : SpellCard
     {
-        private string _spellType;
-
-        public string SpellType
-        {
-            get => _spellType;
-            set
-            {
-                if (!string.IsNullOrEmpty(value))
-                {
-                    _spellType = value;
-                }
-            }
-        }
-
         public InstantCard() : base()
         {
         }
 
-        public InstantCard(int id, string name, string description, string manaCost, string rarity, string spellType)
-            : base(id, name, description, manaCost, rarity)
+        public InstantCard(int id, string name, string description, string manaCost, string rarity, string subtype)
+            : base(id, name, description, manaCost, rarity, subtype)
         {
-            SpellType = spellType;
         }
 
         /// <summary>
@@ -37,15 +25,7 @@ namespace MTGDeckManager.Model.Cards
         /// </summary>
         public override string AutoDescription()
         {
-            return $"{Name} ({SpellType}) - Éphémère, Coût de mana: {ManaCost}, Rareté: {Rarity}. {Description}";
-        }
-
-        /// <summary>
-        /// Check if instant card data is valid
-        /// </summary>
-        public override bool Check()
-        {
-            return base.Check() && !string.IsNullOrEmpty(SpellType);
+            return $"{Name} ({Subtype}) - Éphémère, Coût de mana: {ManaCost}, Rareté: {Rarity}. {Description}";
         }
     }
 }

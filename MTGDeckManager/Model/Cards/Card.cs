@@ -17,14 +17,16 @@ namespace MTGDeckManager.Model.Cards
         private int _id;
         private string _manaCost;
         private string _rarity;
+        private string _subtype;
 
-        public Card(int id, string name, string description, string manaCost, string rarity)
+        public Card(int id, string name, string description, string manaCost, string rarity, string subtype)
         {
             Id = id;
             Name = name;
             Description = description;
             ManaCost = manaCost;
             Rarity = rarity;
+            Subtype = subtype;
         }
 
         public Card()
@@ -87,6 +89,18 @@ namespace MTGDeckManager.Model.Cards
                 if (!string.IsNullOrEmpty(value))
                 {
                     _rarity = value;
+                }
+            }
+        }
+
+        public string Subtype
+        {
+            get => _subtype;
+            set
+            {
+                if (!string.IsNullOrEmpty(value))
+                {
+                    _subtype = value;
                 }
             }
         }
