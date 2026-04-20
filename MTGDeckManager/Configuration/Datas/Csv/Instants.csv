@@ -1,0 +1,12 @@
+Type;Id;Name;Description;ManaCost;Rarity;SpellType
+INSTANT;1;Counterspell;Counter target spell;{U}{U};Common;Counter
+INSTANT;2;Path to Exile;Exile target creature;{W};Uncommon;Removal
+INSTANT;3;Swords to Plowshares;Exile target creature;{W};Uncommon;Removal
+INSTANT;4;Beast Within;Destroy any permanent;{1}{G}{G};Rare;Destruction
+INSTANT;5;Heroic Intervention;Grant hexproof and indestructible;{1}{G};Rare;Protection
+INSTANT;6;Chaos Warp;Shuffle a permanent into library;{3}{R};Rare;Manipulation
+INSTANT;7;Arcane Denial;Counter target spell;{1}{U};Common;Counter
+INSTANT;8;Fracture;Destroy target artifact, creature, or enchantment;{W}{B}{R};Rare;Removal
+INSTANT;9;Assassin's Trophy;Destroy target permanent;{B}{G};Rare;Removal
+INSTANT;10;Anguished Unmaking;Exile target nonland permanent;{1}{W}{B};Rare;Removal
+INSTANT;11;Generous Gift;Destroy target artifact;{W};Common;Removal
