@@ -6,19 +6,20 @@ obj/
 *.dll
 *.pdb
 *.userprefs
+*.cache
 
 # Dependencies
 packages/
-node_modules/
 
 # Logs
 *.log
 
-# OS generated files
-.DS_Store
-Thumbs.db
+# Environment
+.env
+.env.local
+*.env.*
 
-# User-specific files
+# Editor files
 .vs/
 .idea/
 *.user
@@ -26,6 +27,7 @@ Thumbs.db
 *.userosscache
 *.sln.docstates
 
-# Configuration files that might contain secrets
-appsettings.Production.json
+# OS generated files
+.DS_Store
+Thumbs.db
 ```

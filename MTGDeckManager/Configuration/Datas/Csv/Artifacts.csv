@@ -1,0 +1,12 @@
+Type;Id;Name;Description;ManaCost;Rarity;ArtifactType;IsEquipment;IsVehicle
+ARTIFACT;1;Sol Ring;Artifact that produces two colorless mana;{1};Common;Treasure;false;false
+ARTIFACT;2;Arcane Signet;Artifact that produces any color in commander;{2};Rare;Treasure;false;false
+ARTIFACT;3;Thought Vessel;Artifact with no maximum hand size;{2};Uncommon;Treasure;false;false
+ARTIFACT;4;Lightning Greaves;Equipment that gives shroud and haste;{0};Rare;Equipment;true;false
+ARTIFACT;5;Swiftfoot Boots;Equipment that gives hexproof and haste;{2};Rare;Equipment;true;false
+ARTIFACT;6;Blade of Selves;Equipment that creates token copies;{3};Mythic;Equipment;true;false
+ARTIFACT;7;Darksteel Plate;Indestructible equipment;{3};Mythic;Equipment;true;false
+ARTIFACT;8;Commander's Sphere;Artifact that produces any color and draws cards;{3};Common;Treasure;false;false
+ARTIFACT;9;Gilded Lotus;Artifact that produces three mana of any color;{5};Rare;Treasure;false;false
+ARTIFACT;10;Heroic Intervention;Artifact that grants hexproof and indestructible;{2}{G};Rare;Equipment;true;false
+ARTIFACT;11;Skysovereign Consul Flagship;Flying vehicle artifact;{5};Rare;Vehicle;false;true
