@@ -10,7 +10,6 @@ namespace MTGDeckManager.Model.Cards
     {
         private int _power;
         private int _toughness;
-        private string _creatureType;
 
         public int Power
         {
@@ -36,28 +35,15 @@ namespace MTGDeckManager.Model.Cards
             }
         }
 
-        public string CreatureType
-        {
-            get => _creatureType;
-            set
-            {
-                if (!string.IsNullOrEmpty(value))
-                {
-                    _creatureType = value;
-                }
-            }
-        }
-
         public CreatureCard() : base()
         {
         }
 
-        public CreatureCard(int id, string name, string description, string manaCost, string rarity, int power, int toughness, string creatureType)
-            : base(id, name, description, manaCost, rarity)
+        public CreatureCard(int id, string name, string description, string manaCost, string rarity, string subtype, int power, int toughness)
+            : base(id, name, description, manaCost, rarity, subtype)
         {
             Power = power;
             Toughness = toughness;
-            CreatureType = creatureType;
         }
 
         /// <summary>
@@ -65,7 +51,7 @@ namespace MTGDeckManager.Model.Cards
         /// </summary>
         public override string AutoDescription()
         {
-            return $"{Name} ({CreatureType}) - {Power}/{Toughness}, Coût de mana: {ManaCost}, Rareté: {Rarity}. {Description}";
+            return $"{Name} ({Subtype}) - {Power}/{Toughness}, Coût de mana: {ManaCost}, Rareté: {Rarity}. {Description}";
         }
 
         /// <summary>
@@ -73,7 +59,7 @@ namespace MTGDeckManager.Model.Cards
         /// </summary>
         public override bool Check()
         {
-            return base.Check() && !string.IsNullOrEmpty(CreatureType);
+            return base.Check() && !string.IsNullOrEmpty(Subtype);
         }
     }
 }

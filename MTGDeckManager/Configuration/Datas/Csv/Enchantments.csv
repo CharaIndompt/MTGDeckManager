@@ -1,12 +1,13 @@
-Type;Id;Name;Description;ManaCost;Rarity;EnchantmentType;IsAura;IsCurse
-ENCHANTMENT;1;Rhystic Study;Enchantment that draws cards when opponents cast spells;{2}{U};Rare;Study;false;false
-ENCHANTMENT;2;Smothering Tithe;Enchantment that produces treasure tokens;{2}{W};Rare;Treasure;false;false
-ENCHANTMENT;3;Phyrexian Arena;Enchantment that draws cards at the cost of life;{1}{B}{B};Rare;Arena;false;false
-ENCHANTMENT;4;Wild Growth;Aura enchantment on land;{G};Common;Aura;true;false
-ENCHANTMENT;5;Utopia Sprawl;Aura enchantment on land;{G};Common;Aura;true;false
-ENCHANTMENT;6;Curse of Fool's Wisdom;Curse enchantment on player;{2}{U};Uncommon;Curse;false;true
-ENCHANTMENT;7;Curse of Stalked Prey;Curse enchantment on player;{2}{G};Uncommon;Curse;false;true
-ENCHANTMENT;8;Propaganda;Enchantment that taxes attackers;{2}{U};Rare;Defense;false;false
-ENCHANTMENT;9;Ghostly Prison;Enchantment that taxes attackers;{2}{W};Rare;Defense;false;false
-ENCHANTMENT;10;Warleader's Helix;Enchantment that deals damage;{3}{R}{R};Rare;Spell;false;false
-ENCHANTMENT;11;Freed from the Real;Aura enchantment on creature;{2}{U};Rare;Aura;true;false
+Type;Id;Name;Description;ManaCost;Rarity;Subtype
+ENCHANTMENT;1;Rhystic Study;Enchantment that draws cards when opponents cast spells;{2}{U};Rare;Study
+ENCHANTMENT;2;Smothering Tithe;Enchantment that produces treasure tokens;{2}{W};Rare;Treasure
+ENCHANTMENT;3;Phyrexian Arena;Enchantment that draws cards at cost of life;{1}{B}{B};Rare;Arena
+ENCHANTMENT;4;Aura Shards;Enchantment that destroys creatures when creatures enter;{2}{W};Rare;Shards
+ENCHANTMENT;5;Warleader's Call;Enchantment that buffs your creatures;{2}{R}{W};Rare;Call
+ENCHANTMENT;6;Propaganda;Enchantment that taxes attackers;{2}{U};Uncommon;Defense
+ENCHANTMENT;7;Ghostly Prison;Enchantment that taxes attackers;{1}{W}{W};Uncommon;Defense
+ENCHANTMENT;8;Sylvan Library;Enchantment that draws extra cards;{1}{G}{G};Rare;Library
+ENCHANTMENT;9;Exploration;Enchantment that allows extra land drops;{G};Rare;Exploration
+ENCHANTMENT;10;Wild Growth;Enchantment that makes land produce extra mana;{G};Common;Aura
+ENCHANTMENT;11;Curse of Verbosity;Enchantment curse that forces card draw;{3}{U};Rare;Curse
+ENCHANTMENT;12;Curse of Clinging Webs;Enchantment curse that reduces power;{2}{B};Uncommon;Curse

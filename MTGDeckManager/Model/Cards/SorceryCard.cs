@@ -6,30 +6,18 @@ using System.Threading.Tasks;
 
 namespace MTGDeckManager.Model.Cards
 {
-    public class SorceryCard : Card
+    /// <summary>
+    /// Represents a Sorcery card - can only be cast during your main phase
+    /// </summary>
+    public class SorceryCard : SpellCard
     {
-        private string _spellType;
-
-        public string SpellType
-        {
-            get => _spellType;
-            set
-            {
-                if (!string.IsNullOrEmpty(value))
-                {
-                    _spellType = value;
-                }
-            }
-        }
-
         public SorceryCard() : base()
         {
         }
 
-        public SorceryCard(int id, string name, string description, string manaCost, string rarity, string spellType)
-            : base(id, name, description, manaCost, rarity)
+        public SorceryCard(int id, string name, string description, string manaCost, string rarity, string subtype)
+            : base(id, name, description, manaCost, rarity, subtype)
         {
-            SpellType = spellType;
         }
 
         /// <summary>
@@ -37,15 +25,7 @@ namespace MTGDeckManager.Model.Cards
         /// </summary>
         public override string AutoDescription()
         {
-            return $"{Name} ({SpellType}) - Rituel, Coût de mana: {ManaCost}, Rareté: {Rarity}. {Description}";
-        }
-
-        /// <summary>
-        /// Check if sorcery card data is valid
-        /// </summary>
-        public override bool Check()
-        {
-            return base.Check() && !string.IsNullOrEmpty(SpellType);
+            return $"{Name} ({Subtype}) - Rituel, Coût de mana: {ManaCost}, Rareté: {Rarity}. {Description}";
         }
     }
 }

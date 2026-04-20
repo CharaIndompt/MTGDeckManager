@@ -1,13 +1,13 @@
-Type;Id;Name;Description;ManaCost;Rarity;LandType;CanTapForMana
-LAND;1;Forest;Basic land that produces green mana;;Common;Forest;True
-LAND;2;Island;Basic land that produces blue mana;;Common;Island;True
-LAND;3;Mountain;Basic land that produces red mana;;Common;Mountain;True
-LAND;4;Plains;Basic land that produces white mana;;Common;Plains;True
-LAND;5;Swamp;Basic land that produces black mana;;Common;Swamp;True
-LAND;6;Command Tower;Land that produces any color in commander;;Uncommon;Utility;True
-LAND;7;Exotic Orchard;Land that produces opponent's colors;;Rare;Utility;True
-LAND;8;Arcane Signet;Artifact land that produces any color;;Rare;Artifact;True
-LAND;9;Temple Garden;Dual land forest plains;;Rare;Forest Plains;True
-LAND;10;Breeding Pool;Dual land island forest;;Rare;Island Forest;True
-LAND;11;Overgrown Tomb;Dual land swamp forest;;Rare;Swamp Forest;True
-LAND;12;Godless Shrine;Dual land swamp plains;;Rare;Swamp Plains;True
+Type;Id;Name;Description;ManaCost;Rarity;Subtype
+LAND;1;Forest;Basic land that produces green mana;;Common;Forest
+LAND;2;Island;Basic land that produces blue mana;;Common;Island
+LAND;3;Plains;Basic land that produces white mana;;Common;Plains
+LAND;4;Swamp;Basic land that produces black mana;;Common;Swamp
+LAND;5;Mountain;Basic land that produces red mana;;Common;Mountain
+LAND;6;Command Tower;Land that produces any color in commander;;Common;Tower
+LAND;7;Sol Ring;Land that produces two colorless mana;;Rare;Treasure
+LAND;8;Arcane Signet;Land that produces any color in commander;;Rare;Signet
+LAND;9;Path of Ancestry;Land that produces color based on creature types;;Uncommon;Ancestry
+LAND;10;Temple Garden;Land that produces green or white mana;;Rare;Guildgate
+LAND;11;Breeding Pool;Land that produces blue or green mana;;Rare;Guildgate
+LAND;12;Steam Vents;Land that produces blue or red mana;;Rare;Guildgate
